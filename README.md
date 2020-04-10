@@ -15,7 +15,7 @@
 - [問題](https://github.com/txkxyx/php_exercise/blob/master/for_question.md)
 - [解答](https://github.com/txkxyx/php_exercise/blob/master/for_answer.md)
 
-## 配列
+## 添字配列
 
 - [問題](https://github.com/txkxyx/php_exercise/blob/master/array_question.md)
 - [解答](https://github.com/txkxyx/php_exercise/blob/master/array_anaser.md)
