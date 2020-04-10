@@ -33,8 +33,8 @@ if($id === "PHPUser" && $password === "PHPPassword"){
 <?php
 
 $price = 2980;
-$member = FALSE;
-$special = FALSE;
+$member = false;
+$special = false;
 
 $point = 0;
 

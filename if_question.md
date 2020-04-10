@@ -56,10 +56,12 @@ point : 58
 
 ```php
 <?php
-
+// 購入金額
 $price = 2980;
-$member = FALSE;
-$special = FALSE;
+// 会員フラグ
+$member = false;
+// 特別会員フラグ
+$special = false;
 
 $point = 0;
 
@@ -100,4 +102,18 @@ echo "point : ". $point;
 ```console
 > php if_ex3.php
 不合格
+```
+
+- ヒント
+
+```php
+<?php
+
+// 午前の点数
+$am_score = 70;
+// 午後の点数
+$pm_score = 70;
+
+// TODO
+?>
 ```

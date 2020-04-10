@@ -1,6 +1,8 @@
 <?php
 
+// 午前の点数
 $am_score = 70;
+// 午後の点数
 $pm_score = 70;
 
 if($am_score < 70){
