@@ -19,3 +19,8 @@
 
 - [問題](https://github.com/txkxyx/php_exercise/blob/master/array_question.md)
 - [解答](https://github.com/txkxyx/php_exercise/blob/master/array_anaser.md)
+
+## 連想配列
+
+- [問題](https://github.com/txkxyx/php_exercise/blob/master/dict_question.md)
+- [解答](https://github.com/txkxyx/php_exercise/blob/master/dict_anaser.md)
