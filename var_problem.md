@@ -9,6 +9,8 @@
 - 変数$point3を宣言し、60を代入します。
 - コンソール画面に`point : 305060`を出力してください。
 
+<hr>
+
 ## 2. var_ex2.php
 
 以下の実行結果となるようなPHPプログラムを作成してください。
@@ -19,6 +21,8 @@ Hello PHP
 Hello Java
 Hello MySQL
 ```
+
+<hr>
 
 ## 3. var_ex3.php
 
@@ -33,6 +37,8 @@ Hello MySQL
 > php var_ex3.php
 total : 819
 ```
+
+<hr>
 
 ## 4. var_ex4.php
 
