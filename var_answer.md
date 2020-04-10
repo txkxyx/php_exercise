@@ -9,7 +9,7 @@
 - 変数$point3を宣言し、60を代入します。
 - コンソール画面に`point : 305060`を出力してください。
 
-```php
+```php:var_ex1.php
 <?php
 
 $point1 = 30;
@@ -32,7 +32,7 @@ Hello Java
 Hello MySQL
 ```
 
-```php
+```php:var_ex2.php
 <?php
 
 $hello = "Hello ";
@@ -57,7 +57,7 @@ echo $hello. "MySQL". PHP_EOL;
 total : 819
 ```
 
-```php
+```php:var_ex3.php
 <?php
 
 $water_price = 60;
@@ -87,7 +87,7 @@ echo "total : ". $total;
 area : 350
 ```
 
-```php
+```php:var_ex3.php
 <?php
 $upper = 20;
 $bottom = 50;
@@ -97,4 +97,4 @@ $area = ($upper + $bottom) * $height / 2;
 
 echo "area : ". $area;
 ?>
-    ```
+```
