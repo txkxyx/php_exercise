@@ -1,8 +1,6 @@
-# PHP基礎演習問題
+# PHP基礎演習解答例（変数・演算子）
 
-## 変数・演算子
-
-### 1. var_ex1.php
+## 1. var_ex1.php
 
 以下の指示にしたがってプログラム`var_ex1.php`を作成してください。
 
@@ -11,7 +9,19 @@
 - 変数$point3を宣言し、60を代入します。
 - コンソール画面に`point : 305060`を出力してください。
 
-### 2. var_ex2.php
+```php
+<?php
+
+$point1 = 30;
+$point2 = 50;
+$point3 = 60;
+
+echo "point : ". $point1. $point2. $point3;
+
+?>
+```
+
+## 2. var_ex2.php
 
 以下の実行結果となるようなPHPプログラムを作成してください。
 
@@ -22,7 +32,18 @@ Hello Java
 Hello MySQL
 ```
 
-### 3. var_ex3.php
+```php
+<?php
+
+$hello = "Hello ";
+
+echo $hello. "PHP". PHP_EOL;
+echo $hello. "Java". PHP_EOL;
+echo $hello. "MySQL". PHP_EOL;
+?>
+```
+
+## 3. var_ex3.php
 
 以下のような買い物をした際の合計金額を求めてください。
 
@@ -36,7 +57,24 @@ Hello MySQL
 total : 819
 ```
 
-### 4. var_ex4.php
+```php
+<?php
+
+$water_price = 60;
+$water_count = 5;
+$cup_price = 150;
+$cup_count = 3;
+
+$tax8 = 1.08;
+$tax10 = 1.1;
+
+$total = $water_price * $water_count * $tax8 + $cup_price * $cup_count * $tax10;
+
+echo "total : ". $total;
+?>
+```
+
+## 4. var_ex4.php
 
 以下の条件の場合の台形の面積を求めてください。単位は考慮する必要はありません。
 
@@ -48,3 +86,15 @@ total : 819
 > php var_ex4.php
 area : 350
 ```
+
+```php
+<?php
+$upper = 20;
+$bottom = 50;
+$height = 10;
+
+$area = ($upper + $bottom) * $height / 2;
+
+echo "area : ". $area;
+?>
+    ```
