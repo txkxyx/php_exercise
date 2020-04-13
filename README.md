@@ -24,3 +24,8 @@
 
 - [問題](https://github.com/txkxyx/php_exercise/blob/master/dict_question.md)
 - [解答](https://github.com/txkxyx/php_exercise/blob/master/dict_answer.md)
+
+## 関数
+
+- [問題](https://github.com/txkxyx/php_exercise/blob/master/func_question.md)
+- [解答](https://github.com/txkxyx/php_exercise/blob/master/func_answer.md)

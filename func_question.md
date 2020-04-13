@@ -59,7 +59,7 @@ function judgePayable(???){
     // TODO
 }
 
-$result = judgePayable(460);
+$result = judgePayable(???);
 if($result){
     echo "500円玉 : ". $result["500"]. "枚". PHP_EOL;
     echo "100円玉 : ". $result["100"]. "枚". PHP_EOL;
