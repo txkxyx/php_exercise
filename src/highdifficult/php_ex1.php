@@ -34,11 +34,7 @@ while($flag){
         $flag = false;
     }else{
         $count ++;
-        if($result["odd"]){
-            $array = do_process($array, true);
-        }else{
-            $array = do_process($array, false);
-        }
+        $array = do_process($array, $result["odd"]);
     }
 }
 
